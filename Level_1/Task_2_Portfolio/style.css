@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0e3652;
+}
+.nav-bar{
+    display: flex;
+  align-items: center;
+   justify-content: space-between;
+    position:sticky;
+   
+   background-color: rgb(238, 238, 168);
+   padding:25px 42px;
+   color:#0b5285;
+   margin-bottom: 0;
+}
+
+.nav-bar h1{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight:900;
+    font-family: 'Times New Roman', Times, serif    ;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap:50px;
+     
+   
+    }
+
+.nav-links a{
+        color:#0a558b;
+        font-size: 20px;
+       font-family: 'Times New Roman', Times, serif;
+     font-weight: 550;
+     text-decoration: none;
+    }
+
+
+
+.nav-links a:hover {
+   color:black;
+   text-decoration:underline;
+}
+
+.nav-links a:active{
+    color:rgb(125, 120, 220);
+    text-decoration:underline;
+}
+
+/* .nav-links a:visited{
+      color:rgb(88, 15, 88);
+      text-decoration:underline;
+} */
+.home-content{
+    text-align: left;
+    margin-left:50px;
+   padding:180px 30px;
+    max-width:100vh;
+}
+.home-content p{
+    max-width:500px;
+   color: rgb(249, 249, 211);
+   font-size: 20px;
+   font-weight: 500;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.home-content h2{
+    color:rgb(247, 247, 162);
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-decoration: none; */
+}
+
+.home-content h3{
+   color: rgb(241, 241, 219);
+   font-size: 30px;
+   font-weight: 500;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.home{
+    min-height:85vh;
+    background-image: url(image/home-section.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:5px;
+}
+
+.buttons {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+    margin-right: 50px;
+    
+  
+}
+
+.buttons a{
+     background-color: beige;
+}
+
+/* section about */
+
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     margin:60px 0;
+     /* background-color: aliceblue; */
+}
+
+.about-me{
+    max-width: 500px;
+    color:beige;
+    /* background-color: black; */
+    padding:10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+
+.about-me h2{
+    color:rgb(248, 248, 171);
+    font-size: 28px;
+}
+
+.about-me button{
+    background-color: rgb(255, 255, 149);
+    margin:8px 0;
+    padding:5px 7px;
+    border:2px solid rgb(2, 36, 86) ;
+    border-radius: 15px;
+   
+}
+
+.about-me button:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.about-me a{
+    color:#0e3652;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.image{
+    width:450px;
+    height:500px;
+    box-sizing: border-box;
+    background-size: contain;
+    border-radius: 50%;
+}
