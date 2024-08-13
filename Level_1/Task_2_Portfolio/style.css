@@ -182,6 +182,7 @@ body{
     font-weight: 600;
     font-size: 18px;   
 }
+/* project section */
 .projects-section {
     display: flex;
     flex-wrap: wrap;
@@ -313,6 +314,8 @@ body{
     margin-top: 15px;
     margin-bottom: 20px;
 }
+
+/* footer */
 footer {
     background-color: #333;
     color: #fff;

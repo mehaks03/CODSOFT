@@ -41,7 +41,7 @@ input{
 
 /* for input of caculation */
 input::placeholder{
-    color: #bedfed;
+    color: #bedfed; /*for color of the digits /input we are going to enter*/
 }
 
 button{

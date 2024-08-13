@@ -22,6 +22,6 @@ arr.forEach(button => {
             string += e.target.innerHTML;
             input.value = string;
         }
-        
+        //still learnig js
     })
 })
