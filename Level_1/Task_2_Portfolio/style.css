@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #0e3652;
+    background:linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%);
 }
 
 /* navigation bar */
@@ -26,7 +26,7 @@ body{
     text-decoration: none;
     font-size: 35px;
     font-weight:900;
-    font-family: 'Times New Roman', Times, serif    ;
+    font-family: 'Times New Roman', Times, serif ;
 }
 .nav-links{
     list-style: none;
@@ -52,11 +52,11 @@ body{
 
 /* home section */
 #home{
-    min-height:80vh;
+   
     background-image: url(image/home-bckgrnd.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin:5px;
+    margin:10px;
     margin-bottom: 40px;
  }
 .home-content{
@@ -65,12 +65,15 @@ body{
     justify-content: space-around;
     text-align: left;
     padding:60px 100px;
-    max-width:100vh;
-    max-height: 70vh;
+   min-height:80vh;
+   max-height: 80vh;
     gap:250px; 
 }
+.content{
+    padding:20px;
+}
 .home-content p{
-    min-width:600px;
+    max-width:600px;
    color: rgb(249, 249, 211);
    font-size: 20px;
    font-weight: 500;
@@ -90,13 +93,16 @@ body{
    font-weight: 500;
    font-family: 'Times New Roman', Times, serif;
 }
+
+.my-img {
+   
+     padding:10px;
+}
 .my-img img{
-    width:450px;
-    height:500px;
+    width:480px;
     box-sizing: border-box;
     background-size: contain;
     border-radius: 50%;
-    margin-top: 75px;
 }  
 .content a{
     background-color: rgb(232, 232, 213);
@@ -121,14 +127,14 @@ body{
    text-align: center;
    font-size: 30px;
    font-weight: 700;
-   background-color:rgb(238, 238, 168);
-   color:#081d2c ;
+   color:rgb(238, 238, 168) ;
    margin: 0 20px;
    margin-bottom:10px;
    box-shadow:10px -10px 18px rgba(238, 238, 180, 0.18) ;
-   /* background-image: url(image/skills-bk.png); */
+   background-image: url(image/home-section.jpeg);
    background-size: cover;
-   backdrop-filter: blur(50px);
+   background-repeat: no-repeat;
+  
 }
 .skills-section{
     display: flex;
@@ -138,7 +144,9 @@ body{
     margin:0 20px;
     font-family: 'Times New Roman', Times, serif;
     padding:10px;
-    background:  linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 500px;
     margin-bottom: 20px;
 }
@@ -214,11 +222,14 @@ body{
 }
 .resume-section{
     text-align: center;
-    margin:4rem;
+    margin:2rem;
     min-height: 600px;
     padding:10px;
     font-family: 'Times New Roman', Times, serif;
-  margin-bottom: 30px;
+      background-image: url(image/home-bckgrnd.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  
 }
 .resume-section iframe{
     min-height: 500px;
@@ -232,7 +243,7 @@ body{
     transition-duration: 1s;
 }
 .resume-section button{
-    background-color: #081d2c;
+    background-color: #3ca1e9;
     padding: 10px; 
     border-radius: 20px;
     box-shadow: 10px -10px 18px rgba(238, 238, 180, 0.18); 
@@ -248,19 +259,23 @@ body{
 }
 
 /* contact section css */
+   
 .contact-section {
-    background-color: rgb(245, 245, 215);
+    
     padding: 40px;
     margin: 70px auto;
     max-width: 600px;
     border-radius: 8px;
     box-shadow: 10px -10px 18px rgba(238, 238, 180, 0.18);
-   
+    background-image: url(image/home-section.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .contact-section h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #1b2c7d;
+    color:rgb(238, 238, 168) ;
 }
 .contact-section form {
     display: flex;
@@ -311,7 +326,7 @@ footer p{
     font-size: 25px;
 }
 footer a {
-    color: #0d427b;
+    color: #46ced3;
     text-decoration: none;    
 }
 footer a:hover {
